@@ -1,11 +1,11 @@
 console.log("hello world");
 //Exercise 1:  Write a program that calculates the area of a rectangle.
 
-var length :number = 13;
-var weidth : number = 9;
+var length :number = 14;
+var weidth : number = 10;
 
 var area : number = length * weidth;
-// var area : number = 13 * 9;
+// var area : number = 14 * 10;
 
 console.log(area);
 
