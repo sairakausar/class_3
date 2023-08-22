@@ -13,7 +13,7 @@ console.log(area);
 //the volume of a cube.
 
 var input : number = 5;
-var volume : number = 3;
+var volume : number = 4;
 
 // var result : number = 5**3;
 // Math.pow() for power function
