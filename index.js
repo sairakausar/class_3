@@ -1,15 +1,19 @@
-"use strict";
 console.log("hello world");
 //Exercise 1:  Write a program that calculates the area of a rectangle.
-var length = 13;
-var weidth = 9;
+var length = 20;
+var weidth = 12;
+var area_of_rectangle = length * weidth;
+console.log(area_of_rectangle);
+console.log("saira");
+var length = 14;
+var weidth = 10;
 var area = length * weidth;
-// var area : number = 13 * 9;
+// var area : number = 14 * 10;
 console.log(area);
 // Exercise 2: Write a program that takes input and calculates 
 //the volume of a cube.
 var input = 5;
-var volume = 3;
+var volume = 4;
 // var result : number = 5**3;
 // Math.pow() for power function
 console.log("cube", Math.pow(volume, input));
@@ -32,7 +36,8 @@ if (num4 % 2 == 0) {
 else {
     console.log("num4 is odd");
 }
-// Exercise 5:  Write a program that determines if a person is eligible to vote based on their age.
+// Exercise 5:  Write a program that determines if a person is eligible to 
+// vote based on their age.
 var age = 18;
 if (age >= 18) {
     console.log("age is grater than 18");
@@ -40,8 +45,8 @@ if (age >= 18) {
 else {
     console.log("age is lessthan 18");
 }
-// Exercise 6:  Write a program that calculates the result of a mathematical expression.	((10 + 5) * 3 - 2) / (4 % 3)  - 7)
-// ((10 + 5) * 3 - 2) / (4 % 3)  - 7)
+// Exercise 6:  Write a program that calculates the result of a mathematical expression.	
+//((10 + 5) * 3 - 2) / (4 % 3)  - 7) 
 var expression = ((10 + 5) * 3 - 2) / (4 % 3) - 7;
 {
     console.log(expression);
